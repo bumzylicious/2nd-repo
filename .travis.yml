@@ -46,7 +46,7 @@ deploy:
   region: us-east-1
   app: apache
   env: apache-env
-  bucket_name: elasticbeanstalk-us-east-1-956544467856
+  bucket_name: elasticbeanstalk-us-east-1-553448215473
   bucket_path: apache
   on:
     branch: master
