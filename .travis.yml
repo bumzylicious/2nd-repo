@@ -27,7 +27,7 @@ before_install:
  
 # Build development images for test
 before_script:
-  - docker build -t j$DOCKER_HUB_ID/apache .
+  - docker build -t $DOCKER_HUB_ID/apache .
 
  
 # Run some tests
